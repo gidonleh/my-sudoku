@@ -1,0 +1,135 @@
+body {
+    background-color: #333;
+}
+
+#lcg {
+    color: red;
+    margin-right: 100px;
+}
+
+.nav-link {
+    margin-right: 100px;
+    font-weight: bold;
+}
+
+.bigTable{
+    border: 0px solid black;
+    height: 600px;
+    width: 600px;
+    margin-top: 15px;
+    /* margin-left: 40px; */
+    padding: 0;
+}
+
+.smallTable{
+    border: 0px solid black;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
+.outer{
+    border: 2px solid black;
+    border-bottom: 3px solid black;
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+}
+.inner{
+    border: 1px solid black;
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+}
+tr, td{
+    margin: 0px;
+}
+
+.numInput{
+    width: 67px;
+    height: 70px;
+    border: 0px;
+    padding: 0;
+    font-size: 27px;
+
+    text-align: center;
+    margin: 0;
+}
+input[type=text],
+input[type="password"]{
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    border: 0px solid #DDDDDD;
+  }
+   
+  input[type=text]:focus,
+  input[type="password"]:focus{
+    box-shadow: 0 0 5px rgb(238, 201, 81);
+    border: 3px solid rgb(255, 196, 0);
+  }
+  
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  
+  .col-2 {
+     
+  }
+
+  .btn {
+    width: 100%;
+    margin-top: 10px;
+    
+  }
+
+  #madewith {
+      bottom: 0px;
+      position: absolute;
+  }
+
+  @keyframes fadeOut {
+      0% {opacity: 1}
+      100% {opacity: 0}
+  }
+  
+  @keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+.container {
+     
+      z-index: 1;
+      animation: fadeIn 2s linear;
+  }
+#togglenav {
+    position: absolute;
+    right: 50%;
+    top: 0;
+    color: white;
+    visibility: visible;
+}
+
+  @media screen and (max-width: 1003px) 
+  {
+      #bignav
+      {
+          display: none;
+      }
+  }
+
+  @media screen and (min-width: 1000px)
+  {
+
+    #togglenav {
+        display: none;
+    }
+  }
